@@ -2,12 +2,13 @@
 Envoie d'email avec django, api sendgrid
 
 # Création de compte sendgrid
-''' 
+
+```
 // se rendre sur le site de sendgrid, créer un compte et suivr les inscruction pour la création de votre api
 
 https://sendgrid.com/
 
-'''
+```
 
 # Dans votre projet Django
 
@@ -18,7 +19,7 @@ Installer sendgrid
 
 Dans votre le fichier où est implémenté la fonction d'envoie d'email
 
-"""
+```
 
 // render_to_string permet de formater le contenu d'un page html en ramplaçant les différentes variables par leur valeur
 from django.template.loader import render_to_string
@@ -58,7 +59,7 @@ except Exception as e:
     print(e.message)
     
     
-"""
+```
 
 
 
