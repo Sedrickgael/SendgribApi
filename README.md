@@ -13,11 +13,12 @@ https://sendgrid.com/
 
 Installer sendgrid 
 
-''' pip install sendgrid '''
+""" pip install sendgrid """
 
 
 Dans votre le fichier où est implémenté la fonction d'envoie d'email
-'''
+
+"""
 
 // render_to_string permet de formater le contenu d'un page html en ramplaçant les différentes variables par leur valeur
 from django.template.loader import render_to_string
@@ -57,7 +58,7 @@ except Exception as e:
     print(e.message)
     
     
-'''
+"""
 
 
 
