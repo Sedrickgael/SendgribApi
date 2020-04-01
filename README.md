@@ -14,7 +14,7 @@ https://sendgrid.com/
 
 Installer sendgrid 
 
-""" pip install sendgrid """
+### pip install sendgrid
 
 
 Dans votre le fichier où est implémenté la fonction d'envoie d'email
